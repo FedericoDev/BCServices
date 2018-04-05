@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/bcserv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="serif"
+        android:text="BC Services"
+        android:textColor="#616161"
+        android:textSize="30sp" />
+
+    <ImageView
+        android:id="@+id/outs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/address"
+        android:layout_marginTop="10dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/outsourcing" />
+
+    <TextView
+        android:id="@+id/slogan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bcserv"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="serif"
+        android:text="''Ponemos la C en Compromiso y Calidad''"
+        android:textColor="#616161"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/slogan"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="serif"
+        android:text="C/ Jaime Mota #2, esq. José Peguero"
+        android:textColor="#616161"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/contacts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/outs"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="serif"
+        android:text="Contactos"
+        android:textColor="#616161"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/tel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/contacts"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="5dp"
+        android:fontFamily="serif"
+        android:text="Teléfono:"
+        android:textSize="15sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/contacts"
+        android:layout_marginTop="5dp"
+        android:layout_toEndOf="@id/tel"
+        android:fontFamily="serif"
+        android:text=" 809-362-1523"
+        android:textSize="15sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/tel2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tel"
+        android:layout_marginStart="15dp"
+        android:fontFamily="serif"
+        android:text="Celular:"
+        android:textSize="15sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/num2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/num"
+        android:layout_toEndOf="@id/tel"
+        android:fontFamily="serif"
+        android:text=" 829-265-5012"
+        android:textSize="15sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/Email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tel2"
+        android:layout_marginStart="15dp"
+        android:fontFamily="serif"
+        android:text="Email:"
+        android:textSize="15sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/mail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/num2"
+        android:layout_toEndOf="@id/Email"
+        android:fontFamily="serif"
+        android:text=" bcserv@gmail.com"
+        android:textSize="15sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/services"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/outs"
+        android:layout_marginEnd="15dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="serif"
+        android:text="Servicios"
+        android:textColor="#616161"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/lbl1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/services"
+        android:layout_marginStart="210dp"
+        android:layout_marginTop="5dp"
+        android:fontFamily="serif"
+        android:text="~"
+        android:textSize="15sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/serv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@id/services"
+        android:layout_marginTop="5dp"
+        android:layout_toEndOf="@id/lbl1"
+        android:fontFamily="serif"
+        android:text=" Servicio al cliente"
+        android:textSize="15sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/lbl2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/serv1"
+        android:layout_marginStart="210dp"
+        android:fontFamily="serif"
+        android:text="~"
+        android:textSize="15sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/serv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@id/serv1"
+        android:layout_toEndOf="@id/lbl2"
+        android:fontFamily="serif"
+        android:text=" Asesoría laboral"
+        android:textSize="15sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/lbl3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/serv2"
+        android:layout_marginStart="210dp"
+        android:fontFamily="serif"
+        android:text="~"
+        android:textSize="15sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/serv3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@id/serv2"
+        android:layout_toEndOf="@id/lbl3"
+        android:fontFamily="serif"
+        android:text=" Gestión humana"
+        android:textSize="15sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/lbl4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/serv3"
+        android:layout_marginStart="210dp"
+        android:fontFamily="serif"
+        android:text="~"
+        android:textSize="15sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/serv4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@id/serv3"
+        android:layout_toEndOf="@id/lbl4"
+        android:fontFamily="serif"
+        android:text=" Contabilidad"
+        android:textSize="15sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/bye"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/serv4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp"
+        android:fontFamily="serif-monospace"
+        android:text="~Developed by Federico R. Matos~"
+        android:textSize="15sp" />
+
+
+</RelativeLayout>
